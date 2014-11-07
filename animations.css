@@ -113,23 +113,23 @@
 }
 
 .Bell,
-.Bell--ease-out,
-.Bell--ease-in {
-  -webkit-transform-origin: 50% 0%;
-      -ms-transform-origin: 50% 0%;
-          transform-origin: 50% 0%;
+.Bell--ease-in,
+.Bell-container:hover > .Bell--ease-out {
+  -webkit-transform-origin: 50% 5%;
+      -ms-transform-origin: 50% 5%;
+          transform-origin: 50% 5%;
   -webkit-animation: shake 1500ms;
           animation: shake 1500ms;
-}
-
-.Bell--ease-out {
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
 }
 
 .Bell--ease-in {
   -webkit-animation-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
           animation-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+}
+
+.Bell-container:hover > .Bell--ease-out {
+  -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+          animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 }
 
 .Animatable {

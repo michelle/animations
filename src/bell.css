@@ -1,14 +1,17 @@
 .Bell {
-  transform-origin: 50% 0%;
+  transform-origin: 50% 5%;
   animation: shake 1500ms;
 }
 
 .Bell--ease-out {
-  extend: .Bell;
-  animation-timing-function: ease-out;
 }
 
 .Bell--ease-in {
   extend: .Bell;
   animation-timing-function: ease-in-back;
+}
+
+.Bell-container:hover > .Bell--ease-out {
+  extend: .Bell;
+  animation-timing-function: ease-out-cubic;
 }

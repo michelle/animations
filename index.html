@@ -11,12 +11,18 @@
 
       .Animatable {
         width: 50px;
-        height: 50px;
+        height: 40px;
         margin: 20px;
+        border: 1px solid transparent;
+      }
+
+      .Animatable:hover {
+        border-color: red;
       }
 
       .Bell, .Bell--ease-out, .Bell--ease-in {
         background-image: url('images/bell.svg');
+        background-position: 0 -6px;
         background-size: cover;
       }
     </style>
@@ -26,9 +32,9 @@
 
     <div class="animations Bell-container">
       <h1>Ringing bell</h1>
-      <div class="Animatable Bell"></div>
+      <!--div class="Animatable Bell"></div-->
       <div class="Animatable Bell--ease-out"></div>
-      <div class="Animatable Bell--ease-in"></div>
+      <!--div class="Animatable Bell--ease-in"></div-->
     </div>
 
     <div class="attributions">
