@@ -1,4 +1,8 @@
-/** TODO: generate this in a fn instead. */
+.Animatable,
+.Bell {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
 
 @-webkit-keyframes bell {
   0% {
@@ -114,27 +118,12 @@
   }
 }
 
-.Bell,
-.Bell--ease-in,
-.Bell-container:hover > .Bell--ease-out {
+.Bell {
   -webkit-transform-origin: 50% 5%;
       -ms-transform-origin: 50% 5%;
           transform-origin: 50% 5%;
   -webkit-animation: bell 1000ms;
           animation: bell 1000ms;
-}
-
-.Bell--ease-in {
-  -webkit-animation-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
-          animation-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
-}
-
-.Bell-container:hover > .Bell--ease-out {
   -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
           animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-}
-
-.Animatable {
-  display: inline-block;
-  -webkit-backface-visibility: hidden;
 }

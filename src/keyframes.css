@@ -2,7 +2,6 @@
   --bell-angle: 30;
 }
 
-/** TODO: generate this in a fn instead. */
 @keyframes bell {
   0% {
     transform: rotateZ(0);

@@ -2,6 +2,7 @@
 
   <head>
     <link rel="stylesheet" type="text/css" href="animations.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <style>
       .animations {
         position: relative;
@@ -9,32 +10,45 @@
         transform-style: preserve-3d;
       }
 
-      .Animatable {
+      .animated {
         width: 50px;
         height: 40px;
         margin: 20px;
         border: 1px solid transparent;
+        display: inline-block;
       }
 
-      .Animatable:hover {
+      .animated:hover {
         border-color: red;
       }
 
-      .Bell, .Bell--ease-out, .Bell--ease-in {
+      #Bell {
         background-image: url('images/bell.svg');
         background-position: 0 -6px;
         background-size: cover;
       }
     </style>
+
+    <script>
+      $(function() {
+        $('.animated').mouseenter(function() {
+          var type = $(this).attr('id');
+          $(this).addClass(type);
+        });
+        $('.animated').mouseout(function() {
+          var type = $(this).attr('id');
+          $(this).removeClass(type);
+        });
+      });
+    </script>
+
   </head>
 
   <body>
 
-    <div class="animations Bell-container">
+    <div class="animations">
       <h1>Ringing bell</h1>
-      <!--div class="Animatable Bell"></div-->
-      <div class="Animatable Bell--ease-out"></div>
-      <!--div class="Animatable Bell--ease-in"></div-->
+      <div class="animated" id="Bell"></div>
     </div>
 
     <div class="attributions">
