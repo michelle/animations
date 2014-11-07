@@ -1,8 +1,8 @@
 :root {
-  --shake-angle: 30;
+  --bell-angle: 30;
 }
 
-@keyframes shake {
+@keyframes bell {
   0% {
     transform: rotateZ(0);
   }
@@ -10,7 +10,7 @@
     transform: rotateZ(calc(var(--shake-angle) / -1deg));
   }
   20% {
-    transform: rotateZ(calc(var(--shake-angle) / 2deg));
+    transform: rotateZ(calc(var(--shake-angle) / 1deg));
   }
   30% {
     transform: rotateZ(calc(var(--shake-angle) / -3deg));

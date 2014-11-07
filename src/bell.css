@@ -1,9 +1,10 @@
 .Bell {
   transform-origin: 50% 5%;
-  animation: shake 1500ms;
+  animation: bell 3.5s;
 }
 
 .Bell--ease-out {
+  /** TODO */
 }
 
 .Bell--ease-in {

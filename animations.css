@@ -1,4 +1,4 @@
-@-webkit-keyframes shake {
+@-webkit-keyframes bell {
   0% {
     -webkit-transform: rotateZ(0);
             transform: rotateZ(0);
@@ -10,8 +10,8 @@
   }
 
   20% {
-    -webkit-transform: rotateZ(15deg);
-            transform: rotateZ(15deg);
+    -webkit-transform: rotateZ(30deg);
+            transform: rotateZ(30deg);
   }
 
   30% {
@@ -55,7 +55,7 @@
   }
 }
 
-@keyframes shake {
+@keyframes bell {
   0% {
     -webkit-transform: rotateZ(0);
             transform: rotateZ(0);
@@ -67,8 +67,8 @@
   }
 
   20% {
-    -webkit-transform: rotateZ(15deg);
-            transform: rotateZ(15deg);
+    -webkit-transform: rotateZ(30deg);
+            transform: rotateZ(30deg);
   }
 
   30% {
@@ -118,8 +118,8 @@
   -webkit-transform-origin: 50% 5%;
       -ms-transform-origin: 50% 5%;
           transform-origin: 50% 5%;
-  -webkit-animation: shake 1500ms;
-          animation: shake 1500ms;
+  -webkit-animation: shake 3.5s;
+          animation: shake 3.5s;
 }
 
 .Bell--ease-in {
