@@ -2,35 +2,36 @@
   --bell-angle: 30;
 }
 
+/** TODO: generate this in a fn instead. */
 @keyframes bell {
   0% {
     transform: rotateZ(0);
   }
-  10% {
+  12% {
     transform: rotateZ(calc(var(--bell-angle) / -1deg));
   }
-  20% {
+  24% {
     transform: rotateZ(calc(var(--bell-angle) / 1deg));
   }
-  30% {
+  36% {
     transform: rotateZ(calc(var(--bell-angle) / -3deg));
   }
-  40% {
+  48% {
     transform: rotateZ(calc(var(--bell-angle) / 4deg));
   }
-  50% {
+  58% {
     transform: rotateZ(calc(var(--bell-angle) / -5deg));
   }
-  60% {
+  68% {
     transform: rotateZ(calc(var(--bell-angle) / 6deg));
   }
-  70% {
+  76% {
     transform: rotateZ(calc(var(--bell-angle) / -7deg));
   }
-  80% {
+  84% {
     transform: rotateZ(calc(var(--bell-angle) / 8deg));
   }
-  90% {
+  92% {
     transform: rotateZ(calc(var(--bell-angle) / -9deg));
   }
   100% {

@@ -1,50 +1,52 @@
+/** TODO: generate this in a fn instead. */
+
 @-webkit-keyframes bell {
   0% {
     -webkit-transform: rotateZ(0);
             transform: rotateZ(0);
   }
 
-  10% {
+  12% {
     -webkit-transform: rotateZ(-30deg);
             transform: rotateZ(-30deg);
   }
 
-  20% {
+  24% {
     -webkit-transform: rotateZ(30deg);
             transform: rotateZ(30deg);
   }
 
-  30% {
+  36% {
     -webkit-transform: rotateZ(-10deg);
             transform: rotateZ(-10deg);
   }
 
-  40% {
+  48% {
     -webkit-transform: rotateZ(7.5deg);
             transform: rotateZ(7.5deg);
   }
 
-  50% {
+  58% {
     -webkit-transform: rotateZ(-6deg);
             transform: rotateZ(-6deg);
   }
 
-  60% {
+  68% {
     -webkit-transform: rotateZ(5deg);
             transform: rotateZ(5deg);
   }
 
-  70% {
+  76% {
     -webkit-transform: rotateZ(-4.285714285714286deg);
             transform: rotateZ(-4.285714285714286deg);
   }
 
-  80% {
+  84% {
     -webkit-transform: rotateZ(3.75deg);
             transform: rotateZ(3.75deg);
   }
 
-  90% {
+  92% {
     -webkit-transform: rotateZ(-3.3333333333333335deg);
             transform: rotateZ(-3.3333333333333335deg);
   }
@@ -61,47 +63,47 @@
             transform: rotateZ(0);
   }
 
-  10% {
+  12% {
     -webkit-transform: rotateZ(-30deg);
             transform: rotateZ(-30deg);
   }
 
-  20% {
+  24% {
     -webkit-transform: rotateZ(30deg);
             transform: rotateZ(30deg);
   }
 
-  30% {
+  36% {
     -webkit-transform: rotateZ(-10deg);
             transform: rotateZ(-10deg);
   }
 
-  40% {
+  48% {
     -webkit-transform: rotateZ(7.5deg);
             transform: rotateZ(7.5deg);
   }
 
-  50% {
+  58% {
     -webkit-transform: rotateZ(-6deg);
             transform: rotateZ(-6deg);
   }
 
-  60% {
+  68% {
     -webkit-transform: rotateZ(5deg);
             transform: rotateZ(5deg);
   }
 
-  70% {
+  76% {
     -webkit-transform: rotateZ(-4.285714285714286deg);
             transform: rotateZ(-4.285714285714286deg);
   }
 
-  80% {
+  84% {
     -webkit-transform: rotateZ(3.75deg);
             transform: rotateZ(3.75deg);
   }
 
-  90% {
+  92% {
     -webkit-transform: rotateZ(-3.3333333333333335deg);
             transform: rotateZ(-3.3333333333333335deg);
   }
@@ -118,8 +120,8 @@
   -webkit-transform-origin: 50% 5%;
       -ms-transform-origin: 50% 5%;
           transform-origin: 50% 5%;
-  -webkit-animation: bell 1500ms;
-          animation: bell 1500ms;
+  -webkit-animation: bell 1000ms;
+          animation: bell 1000ms;
 }
 
 .Bell--ease-in {
