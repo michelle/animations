@@ -1,6 +1,6 @@
 .Bell {
   transform-origin: 50% 5%;
-  animation: bell 3.5s;
+  animation: bell 1500ms;
 }
 
 .Bell--ease-out {
