@@ -1,0 +1,7 @@
+@import 'keyframes.css';
+@import 'bell.css';
+
+.Animatable {
+  display: inline-block;
+  -webkit-backface-visibility: hidden;
+}

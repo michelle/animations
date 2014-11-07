@@ -1,0 +1,44 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="animations.css">
+    <style>
+      .animations {
+        position: relative;
+        perspective: 100px;
+        transform-style: preserve-3d;
+      }
+
+      .Animatable {
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+      }
+
+      .Bell, .Bell--ease-out, .Bell--ease-in {
+        background-image: url('images/bell.svg');
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="animations Bell-container">
+      <h1>Ringing bell</h1>
+      <div class="Animatable Bell"></div>
+      <div class="Animatable Bell--ease-out"></div>
+      <div class="Animatable Bell--ease-in"></div>
+    </div>
+
+    <div class="attributions">
+      <ul>
+        <li>
+          Bell designed by <a href="http://www.thenounproject.com/tlb">Thomas Le Bas</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
+        </li>
+      </ul>
+    </div>
+
+  </body>
+
+</html>

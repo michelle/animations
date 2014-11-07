@@ -1,0 +1,39 @@
+:root {
+  --shake-angle: 30;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotateZ(0);
+  }
+  10% {
+    transform: rotateZ(calc(var(--shake-angle) / -1deg));
+  }
+  20% {
+    transform: rotateZ(calc(var(--shake-angle) / 2deg));
+  }
+  30% {
+    transform: rotateZ(calc(var(--shake-angle) / -3deg));
+  }
+  40% {
+    transform: rotateZ(calc(var(--shake-angle) / 4deg));
+  }
+  50% {
+    transform: rotateZ(calc(var(--shake-angle) / -5deg));
+  }
+  60% {
+    transform: rotateZ(calc(var(--shake-angle) / 6deg));
+  }
+  70% {
+    transform: rotateZ(calc(var(--shake-angle) / -7deg));
+  }
+  80% {
+    transform: rotateZ(calc(var(--shake-angle) / 8deg));
+  }
+  90% {
+    transform: rotateZ(calc(var(--shake-angle) / -9deg));
+  }
+  100% {
+    transform: rotateZ(0);
+  }
+}
