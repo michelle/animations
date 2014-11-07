@@ -7,31 +7,31 @@
     transform: rotateZ(0);
   }
   10% {
-    transform: rotateZ(calc(var(--shake-angle) / -1deg));
+    transform: rotateZ(calc(var(--bell-angle) / -1deg));
   }
   20% {
-    transform: rotateZ(calc(var(--shake-angle) / 1deg));
+    transform: rotateZ(calc(var(--bell-angle) / 1deg));
   }
   30% {
-    transform: rotateZ(calc(var(--shake-angle) / -3deg));
+    transform: rotateZ(calc(var(--bell-angle) / -3deg));
   }
   40% {
-    transform: rotateZ(calc(var(--shake-angle) / 4deg));
+    transform: rotateZ(calc(var(--bell-angle) / 4deg));
   }
   50% {
-    transform: rotateZ(calc(var(--shake-angle) / -5deg));
+    transform: rotateZ(calc(var(--bell-angle) / -5deg));
   }
   60% {
-    transform: rotateZ(calc(var(--shake-angle) / 6deg));
+    transform: rotateZ(calc(var(--bell-angle) / 6deg));
   }
   70% {
-    transform: rotateZ(calc(var(--shake-angle) / -7deg));
+    transform: rotateZ(calc(var(--bell-angle) / -7deg));
   }
   80% {
-    transform: rotateZ(calc(var(--shake-angle) / 8deg));
+    transform: rotateZ(calc(var(--bell-angle) / 8deg));
   }
   90% {
-    transform: rotateZ(calc(var(--shake-angle) / -9deg));
+    transform: rotateZ(calc(var(--bell-angle) / -9deg));
   }
   100% {
     transform: rotateZ(0);

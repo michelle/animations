@@ -118,8 +118,8 @@
   -webkit-transform-origin: 50% 5%;
       -ms-transform-origin: 50% 5%;
           transform-origin: 50% 5%;
-  -webkit-animation: shake 3.5s;
-          animation: shake 3.5s;
+  -webkit-animation: bell 3.5s;
+          animation: bell 3.5s;
 }
 
 .Bell--ease-in {
